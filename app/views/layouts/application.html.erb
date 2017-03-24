@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test2</title>
+    <%= csrf_meta_tags %>
+
+    
+  </head>
+
+  <body>
+  <%= link_to "Accueil",	bienvenue_Accueil_path %>
+  <%= link_to "Livre",	posts_index_path %>
+  <%= link_to "Contact",	bienvenue_Contact_path %>
+  <%= link_to "Administration",	bienvenue_Administration_path %>
+    <%= yield %>
+  </body>
+</html>
